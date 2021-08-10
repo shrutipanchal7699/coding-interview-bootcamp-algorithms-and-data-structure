@@ -1,3 +1,4 @@
+//checking directly if the original str == reverse of the str.
 function palindrome_function1(str) {
     var reversed = str.split('').reverse().join('');
     return str === reversed;
